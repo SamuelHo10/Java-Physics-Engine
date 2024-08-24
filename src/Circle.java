@@ -50,8 +50,8 @@ public class Circle extends Body {
 		g.setColor(color);
 		g.fillOval((int) (pos.x - radius), (int) (pos.y - radius), (int) radius * 2, (int) radius * 2);
 		
-		g.setColor(Color.RED);
-		g.fillOval((int)(Math.cos(this.angle*Math.PI/180)*this.radius- 5+this.pos.x), (int)(Math.sin(this.angle*Math.PI/180)*this.radius - 5+this.pos.y), 10, 10);
+//		g.setColor(Color.ORANGE);
+//		g.drawLine((int)(Math.cos(this.angle*Math.PI/180)*this.radius+this.pos.x), (int)(Math.sin(this.angle*Math.PI/180)*this.radius +this.pos.y), (int)this.pos.x,(int)this.pos.y);
 	}
 
 	@Override
